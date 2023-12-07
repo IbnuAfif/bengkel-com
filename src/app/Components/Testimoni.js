@@ -8,7 +8,9 @@ const Testimoni = () => {
         <div className="grid gap-y-10 sm:grid-cols-2 sm:gap-y-12 lg:grid-cols-3 lg:divide-x">
           {/* Quote Start */}
           <div className="flex flex-col items-center gap-4 sm:px-4 md:gap-6 lg:px-8">
-            <div className="text-center text-gray-600">“ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.”</div>
+            <div className="text-center text-gray-600">
+              “Pelayanan dari jasa perbaikan kendaraan ini luar biasa! Mereka tidak hanya cepat menemukan masalah pada mobil saya, tetapi juga memberikan solusi yang sangat efektif. Saya sangat puas dengan hasilnya.”
+            </div>
             <div className="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
               <div className="h-12 w-12 overflow-hidden rounded-full bg-gray-200 shadow-xl md:h-14 md:w-14">
                 <Image src="/user.jpg" width={100} height={100} alt="user photo" loading="lazy" />
@@ -23,13 +25,15 @@ const Testimoni = () => {
 
           {/* Quote Start */}
           <div className="flex flex-col items-center gap-4 sm:px-4 md:gap-6 lg:px-8">
-            <div className="text-center text-gray-600">“ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.”</div>
+            <div className="text-center text-gray-600">
+              “ Saya sudah menggunakan jasa perbaikan kendaraan ini beberapa kali dan saya tidak pernah kecewa. Mekaniknya sangat ahli dan profesional, harga yang mereka tawarkan juga sangat terjangkau. Sangat direkomendasikan!”
+            </div>
             <div className="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
               <div className="h-12 w-12 overflow-hidden rounded-full bg-gray-200 shadow-xl md:h-14 md:w-14">
                 <Image src="/user.jpg" width={100} height={100} alt="user photo" loading="lazy" />
               </div>
               <div>
-                <div className="text-center text-sm font-bold text-indigo-500 sm:text-left md:text-base">Suratno Djaja</div>
+                <div className="text-center text-sm font-bold text-indigo-500 sm:text-left md:text-base">Budi Hartanto</div>
                 <p className="text-center text-sm text-gray-500 sm:text-left md:text-sm">Pelanggan</p>
               </div>
             </div>
@@ -38,13 +42,16 @@ const Testimoni = () => {
 
           {/* Quote Start */}
           <div className="flex flex-col items-center gap-4 sm:px-4 md:gap-6 lg:px-8">
-            <div className="text-center text-gray-600">“ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.”</div>
+            <div className="text-center text-gray-600">
+              “Pertama kali mencoba jasa perbaikan kendaraan ini karena rekomendasi dari teman, dan saya benar-benar senang dengan layanannya. Mereka sangat ramah, teliti dalam melakukan perbaikan, dan mobil saya kembali berjalan seperti
+              baru setelah diperbaiki.”
+            </div>
             <div className="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
               <div className="h-12 w-12 overflow-hidden rounded-full bg-gray-200 shadow-xl md:h-14 md:w-14">
                 <Image src="/user.jpg" width={100} height={100} alt="user photo" loading="lazy" />
               </div>
               <div>
-                <div className="text-center text-sm font-bold text-indigo-500 sm:text-left md:text-base">Suratno Djaja</div>
+                <div className="text-center text-sm font-bold text-indigo-500 sm:text-left md:text-base">Bagus Widjaja</div>
                 <p className="text-center text-sm text-gray-500 sm:text-left md:text-sm">Pelanggan</p>
               </div>
             </div>
