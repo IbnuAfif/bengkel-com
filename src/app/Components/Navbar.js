@@ -44,7 +44,7 @@ const Navbar = () => {
         <div className="items-center">
           <button data="burger-item" type="button" className="inline-flex items-center w-10 justify-center  rounded-md md:hidden hover:bg-gray-700 hover:bg-opacity-50 ">
             <span className="">
-              <CiMenuFries className="text-white text-xl " />
+              <CiMenuFries className="text-black text-xl " />
             </span>
           </button>
         </div>
