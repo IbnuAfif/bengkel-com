@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Testimoni = () => {
   return (
-    <div className="bg-white py-6 sm:py-8 lg:py-12">
+    <div className="bg-white py-6 sm:py-16 lg:py-24">
       <div className="mx-auto max-w-screen-xl px-4 md:px-8">
         <h2 className="mb-8 text-center text-xl font-bold text-gray-800 md:mb-12 lg:text-3xl">What Other Say About Us</h2>
         <div className="grid gap-y-10 sm:grid-cols-2 sm:gap-y-12 lg:grid-cols-3 lg:divide-x">

@@ -5,18 +5,18 @@ import { MdOutlineElectricCar } from "react-icons/md";
 
 const Layanan = () => {
   return (
-    <section className="py-6">
+    <section className="py-12">
       <div className="max-w-screen-xl mx-auto px-4 text-center text-gray-600 md:px-8">
         <div className="max-w-2xl mx-auto">
           <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">Layanan Pemeliharaan Kendaraan dengan Presisi</h3>
           <p className="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius, enim ex faucibus purus.</p>
         </div>
 
-        <div className="grid gap-y-8 gap-x-12 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-y-2 gap-x-12 sm:grid-cols-2 lg:grid-cols-3">
           {/* Start Services */}
           <div className="mt-12">
             <div>
-              <div className="space-y-3">
+              <div className="space-y-2">
                 <div className="w-12 h-12 mx-auto bg-gray-200 text-gray-800 rounded-full flex items-center justify-center">
                   <FaOilCan />
                 </div>
@@ -30,7 +30,7 @@ const Layanan = () => {
           {/* Start Services */}
           <div className="mt-12">
             <div>
-              <div className="space-y-3">
+              <div className="space-y-2">
                 <div className="w-12 h-12 mx-auto bg-gray-200 text-gray-800 rounded-full flex items-center justify-center">
                   <GiBreakingChain />
                 </div>
@@ -43,7 +43,7 @@ const Layanan = () => {
           {/* Start Services */}
           <div className="mt-12">
             <div>
-              <div className="space-y-3">
+              <div className="space-y-2">
                 <div className="w-12 h-12 mx-auto bg-gray-200 text-gray-800 rounded-full flex items-center justify-center">
                   <GiFlatTire />
                 </div>
@@ -56,7 +56,7 @@ const Layanan = () => {
           {/* Start Services */}
           <div className="mt-12">
             <div>
-              <div className="space-y-3">
+              <div className="space-y-2">
                 <div className="w-12 h-12 mx-auto bg-gray-200 text-gray-800 rounded-full flex items-center justify-center">
                   <MdOutlineElectricCar />
                 </div>
@@ -69,7 +69,7 @@ const Layanan = () => {
           {/* Start Services */}
           <div className="mt-12">
             <div>
-              <div className="space-y-3">
+              <div className="space-y-2">
                 <div className="w-12 h-12 mx-auto bg-gray-200 text-gray-800 rounded-full flex items-center justify-center">
                   <FaCogs />
                 </div>
@@ -82,7 +82,7 @@ const Layanan = () => {
           {/* Start Services */}
           <div className="mt-12">
             <div>
-              <div className="space-y-3">
+              <div className="space-y-2">
                 <div className="w-12 h-12 mx-auto bg-gray-200 text-gray-800 rounded-full flex items-center justify-center">
                   <FaStore />
                 </div>
