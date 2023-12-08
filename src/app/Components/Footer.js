@@ -18,9 +18,6 @@ const Footer = () => {
             <Link href="/Teams" className="text-gray-900 transition duration-100 hover:text-gray-300 active:text-gray-500 ">
               Teams
             </Link>
-            <Link href="/Contacts" className="text-gray-900 transition duration-100 hover:text-gray-300 active:text-gray-500 ">
-              Contacts
-            </Link>
           </nav>
 
           {/* Link End */}
