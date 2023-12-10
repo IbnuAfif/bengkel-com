@@ -18,7 +18,7 @@ const Layanan = () => {
             <div>
               <div className="space-y-2">
                 <div className="w-12 h-12 mx-auto bg-gray-200 text-gray-800 rounded-full flex items-center justify-center">
-                  <FaOilCan />
+                  <FaOilCan className="text-3xl" />
                 </div>
                 <h4 className="text-lg text-gray-800 font-semibold">Ganti Oli</h4>
                 <p>Jasa ganti oli kami memberikan layanan cepat dan efisien untuk memastikan mesin kendaraan Anda tetap beroperasi dengan baik.</p>
@@ -32,7 +32,7 @@ const Layanan = () => {
             <div>
               <div className="space-y-2">
                 <div className="w-12 h-12 mx-auto bg-gray-200 text-gray-800 rounded-full flex items-center justify-center">
-                  <GiBreakingChain />
+                  <GiBreakingChain className="text-3xl" />
                 </div>
                 <h4 className="text-lg text-gray-800 font-semibold">perbaikan Rantai</h4>
                 <p>Kami menyediakan jasa perbaikan rantai yang profesional dan akurat, memperbaiki segala kerusakan dan masalah pada rantai.</p>
@@ -45,7 +45,7 @@ const Layanan = () => {
             <div>
               <div className="space-y-2">
                 <div className="w-12 h-12 mx-auto bg-gray-200 text-gray-800 rounded-full flex items-center justify-center">
-                  <GiFlatTire />
+                  <GiFlatTire className="text-3xl" />
                 </div>
                 <h4 className="text-lg text-gray-800 font-semibold">perawatan Ban dan Roda</h4>
                 <p>Kami memberikan layanan perawatan ban, termasuk pengecekan tekanan udara, penyetelan keseimbangan, serta pemeriksaan dan perbaikan pada kondisi ban.</p>
@@ -58,7 +58,7 @@ const Layanan = () => {
             <div>
               <div className="space-y-2">
                 <div className="w-12 h-12 mx-auto bg-gray-200 text-gray-800 rounded-full flex items-center justify-center">
-                  <MdOutlineElectricCar />
+                  <MdOutlineElectricCar className="text-3xl" />
                 </div>
                 <h4 className="text-lg text-gray-800 font-semibold">Kelistrikan</h4>
                 <p>Menyediakan pengecekan dan perbaikan pada sistem kelistrikan, termasuk baterai, sistem pengapian, dan perangkat elektronik lainnya.</p>
@@ -71,7 +71,7 @@ const Layanan = () => {
             <div>
               <div className="space-y-2">
                 <div className="w-12 h-12 mx-auto bg-gray-200 text-gray-800 rounded-full flex items-center justify-center">
-                  <FaCogs />
+                  <FaCogs className="text-3xl" />
                 </div>
                 <h4 className="text-lg text-gray-800 font-semibold">Maintenance</h4>
                 <p>Kami menyediakan layanan pengecekan rutin serta perawatan berkala untuk memastikan kendaraan Anda berfungsi optimal.</p>
@@ -84,7 +84,7 @@ const Layanan = () => {
             <div>
               <div className="space-y-2">
                 <div className="w-12 h-12 mx-auto bg-gray-200 text-gray-800 rounded-full flex items-center justify-center">
-                  <FaStore />
+                  <FaStore className="text-3xl" />
                 </div>
                 <h4 className="text-lg text-gray-800 font-semibold">Spare Parts</h4>
                 <p>Kami menyediakan aksesori kendaraan serta suku cadang orisinal, memberikan opsi tambahan dan pembaruan bagi kendaraan Anda.</p>

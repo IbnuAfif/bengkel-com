@@ -30,7 +30,7 @@ const Testimoni = () => {
             </div>
             <div className="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
               <div className="h-12 w-12 overflow-hidden rounded-full bg-gray-200 shadow-xl md:h-14 md:w-14">
-                <Image src="/user.jpg" width={100} height={100} alt="user photo" loading="lazy" />
+                <Image src="/user2.jpg" width={100} height={100} alt="user photo" loading="lazy" />
               </div>
               <div>
                 <div className="text-center text-sm font-bold text-indigo-500 sm:text-left md:text-base">Budi Hartanto</div>
@@ -48,7 +48,7 @@ const Testimoni = () => {
             </div>
             <div className="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
               <div className="h-12 w-12 overflow-hidden rounded-full bg-gray-200 shadow-xl md:h-14 md:w-14">
-                <Image src="/user.jpg" width={100} height={100} alt="user photo" loading="lazy" />
+                <Image src="/user3.jpg" width={100} height={100} alt="user photo" loading="lazy" />
               </div>
               <div>
                 <div className="text-center text-sm font-bold text-indigo-500 sm:text-left md:text-base">Bagus Widjaja</div>

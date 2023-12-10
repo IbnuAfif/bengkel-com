@@ -1,54 +1,55 @@
 import { FaClipboardList } from "react-icons/fa6";
+import Image from "next/image";
 
 const Services = () => {
   const items = [
     {
-      icon: <FaClipboardList />,
+      icon: <Image src="/gear.png" width={50} height={50} alt="" />,
       title: "Perawatan Rutin Kendaraan",
       desc: "Layanan perawatan berkala yang mencakup penggantian oli, filter udara, dan cek komponen penting lainnya untuk menjaga performa optimal kendaraan.",
     },
     {
-      icon: <FaClipboardList />,
+      icon: <Image src="/piston.png" width={50} height={50} alt="" />,
       title: "Perbaikan Mesin",
       desc: "Diagnosis, perbaikan, dan penggantian komponen mesin yang rusak atau mengalami masalah untuk memastikan kendaraan beroperasi dengan baik.",
     },
     {
-      icon: <FaClipboardList />,
+      icon: <Image src="/rem.png" width={50} height={50} alt="" />,
       title: "Servis Rem",
       desc: "Pengecekan, perbaikan, dan penggantian sistem rem kendaraan guna memastikan fungsi optimal demi keamanan pengendara.",
     },
     {
-      icon: <FaClipboardList />,
+      icon: <Image src="/suspensi.png" width={50} height={50} alt="" />,
       title: "Sistem Suspensi",
       desc: "Pemeriksaan, perbaikan, dan penggantian bagian suspensi yang rusak atau aus untuk kenyamanan dan kestabilan saat berkendara.",
     },
     {
-      icon: <FaClipboardList />,
+      icon: <Image src="/ac.png" width={50} height={50} alt="" />,
       title: "Servis Sistem Pendingin",
       desc: "Perawatan dan perbaikan pada sistem pendinginan, termasuk pemeriksaan radiator, kipas, dan cairan pendingin untuk mencegah overheating.",
     },
     {
-      icon: <FaClipboardList />,
+      icon: <Image src="/electric-meter.png" width={50} height={50} alt="" />,
       title: "Pemasangan dan Perbaikan Kelistrikan",
       desc: "Instalasi, perbaikan, dan penggantian komponen kelistrikan seperti aki, alternator, atau kabel-kabel yang rusak.",
     },
     {
-      icon: <FaClipboardList />,
+      icon: <Image src="/fuel.png" width={50} height={50} alt="" />,
       title: "Servis Sistem Bahan Bakar",
       desc: "Perawatan dan perbaikan pada sistem bahan bakar, termasuk injektor, pompa bahan bakar, atau karburator untuk efisiensi kendaraan.",
     },
     {
-      icon: <FaClipboardList />,
+      icon: <Image src="/aksesoris.png" width={50} height={50} alt="" />,
       title: "Pemasangan dan Perbaikan Aksesori",
       desc: "Instalasi atau perbaikan aksesori seperti lampu tambahan, sistem audio, atau fitur tambahan lainnya sesuai permintaan pelanggan.",
     },
     {
-      icon: <FaClipboardList />,
+      icon: <Image src="/transmisi.png" width={50} height={50} alt="" />,
       title: "Perbaikan Sistem Transmisi",
       desc: "Diagnosis dan perbaikan pada sistem transmisi otomatis atau manual untuk menjaga performa dan keandalan perpindahan gigi.",
     },
     {
-      icon: <FaClipboardList />,
+      icon: <Image src="/tire.png" width={50} height={50} alt="" />,
       title: "Servis Ban dan Roda",
       desc: "Pengecekan, penyetelan tekanan ban, rotasi, perbaikan, dan pemasangan ban baru untuk keamanan dan kinerja optimal saat berkendara.",
     },

@@ -1,18 +1,24 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { FaBars, FaWindowClose } from "react-icons/fa";
 import { useState } from "react";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   return (
-    <nav className="bg-[#F7F7F7] fixed w-full z-20 top-0 start-0 border-b border-gray-200 ">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
+    <nav className="bg-[#F7F7F7] sticky w-full z-20 top-0 start-0 border-b border-gray-200 ">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1">
         <Link href="/" className="text-gray-900 font-bold">
           {/* <span className="font-bold font-medium">&#47;</span>
           <span className="font-bold font-medium">&#47;</span>
           <span className="font-bold font-medium">&#47;</span> */}
-          <span className="">BENGKEL.COM</span>
+          <span className="flex items-center h-auto">
+            <div className=" h-auto">
+              <Image src="/logo.png" height={20} width={20} alt="logo" />
+            </div>
+            <div className="px-2">BENGKEL.COM</div>
+          </span>
         </Link>
 
         {/* Start Memunculkan Tombol Menu di Navbar saat mode mobile -Menu- */}

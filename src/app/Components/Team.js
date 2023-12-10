@@ -31,7 +31,7 @@ const Teams = () => {
             <div className="mb-10 md:mb-16">
               <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Meet Our Team</h2>
               <p className="mx-auto max-w-screen-md text-center text-gray-500 lg:text-2xl ">
-                This is a section of some simplfe filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated
+                Kami adalah tim jasa servis kendaraan profesional yang siap memberikan pelayanan terbaik untuk menjaga kendaraan Anda agar tetap prima di jalan raya.
               </p>
             </div>
             {/* Text End */}
@@ -45,7 +45,7 @@ const Teams = () => {
                     <Image src={member.picture.large} width={500} height={500} alt="user sjsdsd" />
                   </div>
                   <div>
-                    <div className="text-center font-bold text-indigo-500 md:text-lg">
+                    <div className="text-center font-bold text-[#132241] md:text-lg">
                       {member.name.first} {member.name.last}
                     </div>
                     <div>
@@ -55,8 +55,8 @@ const Teams = () => {
                     {/* Social Media Start */}
                     <div className="flex justify-center">
                       <div className="flex gap-4">
-                        <MdEmail className="text-gray-800 transition duration-100 hover:text-gray-500 active:text-gray-700" />
-                        <MdPhoneAndroid className="text-gray-800 transition duration-100 hover:text-gray-500 active:text-gray-700" />
+                        <MdEmail href={member.email} className="text-gray-800 transition duration-100 hover:text-gray-500 active:text-gray-700" />
+                        <MdPhoneAndroid href={member.phone} className="text-gray-800 transition duration-100 hover:text-gray-500 active:text-gray-700" />
                       </div>
                     </div>
                   </div>
