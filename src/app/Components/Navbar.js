@@ -24,7 +24,7 @@ const Navbar = () => {
         {/* End Memunculkan Tombol Menu di Navbar saat mode mobile -Menu- */}
 
         {/* Start Items Navbar saat mode layar medium dan fullscreen -About Us - Services - Teams - Contacts- */}
-        <div id="burger-item" className={`items-center justify-center w-full md:flex md:w-auto md:order-1 ${navbar ? " p-2 flex md:p-0 block" : "hidden"}`}>
+        <div id="burger-item" className={`items-center justify-center w-full md:flex md:w-auto md:order-1 ${navbar ? " p-2 flex md:p-0" : "hidden"}`}>
           <ul className="flex flex-col p-2 md:p-0 mt-2 font-medium items-center border-gray-100 rounded-lg md:space-x-8 md:flex-row md:mt-0 md:border-0 md:bg-transparent">
             <li>
               <Link href="/About" onClick={() => setNavbar(!navbar)} className="block px-2 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0">
