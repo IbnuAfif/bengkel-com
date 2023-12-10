@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
-import { CiMenuFries, CiSquareRemove } from "react-icons/ci";
-import Image from "next/image";
+import { FaBars, FaWindowClose } from "react-icons/fa";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -19,7 +18,7 @@ const Navbar = () => {
         {/* Start Memunculkan Tombol Menu di Navbar saat mode mobile -Menu- */}
         <div className="items-center">
           <button type="button" className="inline-flex items-center w-10 justify-center p-1  rounded-sm md:hidden hover:bg-gray-700 hover:bg-opacity-50 " onClick={() => setNavbar(!navbar)}>
-            <span className="">{navbar ? <CiSquareRemove className="text-black text-xl " /> : <CiMenuFries className="text-black text-xl " />}</span>
+            <span className="">{navbar ? <FaWindowClose className="text-black text-xl " /> : <FaBars className="text-black text-xl " />}</span>
           </button>
         </div>
         {/* End Memunculkan Tombol Menu di Navbar saat mode mobile -Menu- */}
