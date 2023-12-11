@@ -8,12 +8,12 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <nav className="bg-[#F7F7F7] sticky w-full z-20 top-0 start-0 border-b border-gray-200 ">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-3 md:mx-auto p-1">
         <Link href="/" className="text-gray-900 font-bold">
           {/* <span className="font-bold font-medium">&#47;</span>
           <span className="font-bold font-medium">&#47;</span>
           <span className="font-bold font-medium">&#47;</span> */}
-          <span className="flex items-center h-auto">
+          <span className="flex items-center h-10">
             <div className=" h-auto">
               <Image src="/logo.png" height={20} width={20} alt="logo" />
             </div>
