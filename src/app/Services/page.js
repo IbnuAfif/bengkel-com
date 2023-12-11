@@ -56,8 +56,8 @@ const Services = () => {
   ];
   return (
     <section className="py-8 mx-4">
-      <div className="max-w-screen-xl mx-auto sm:text-center bg-gray-100 p-6 rounded-lg">
-        <div className="relative  mx-8">
+      <div className="max-w-screen-xl mx-auto sm:text-center bg-gray-100 m-4 pt-4 pb-4 rounded-lg">
+        <div className="relative  mx-4">
           <div className="relative z-10">
             <h3 className="text-gray-900 text-3xl font-semibold sm:text-4xl">Ayo, Perbaiki Sekarang, Hindari Masalah di Jalan!</h3>
             <p className="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius, enim ex faucibus purus.</p>
@@ -66,7 +66,7 @@ const Services = () => {
           <div className="relative mt-12 text-left">
             <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {items.map((item, i) => (
-                <li key={i} className="bg-white space-y-3 p-3 border rounded-lg">
+                <li key={i} className="bg-white space-y-3 p-4 border rounded-lg">
                   <div className="text-cyan-700 py-2 text-xl">{item.icon}</div>
                   <h4 className="text-lg text-gray-800 font-semibold">{item.title}</h4>
                   <p>{item.desc}</p>
