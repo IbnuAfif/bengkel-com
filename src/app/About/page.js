@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Timeline from "../Components/Timeline";
+import Partners from "../Components/Partners";
 
 const About = () => {
   return (
@@ -28,6 +29,7 @@ const About = () => {
         </div>
       </div>
       <Timeline />
+      <Partners />
     </>
   );
 };
