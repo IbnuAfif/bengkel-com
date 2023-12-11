@@ -4,6 +4,39 @@ import { GiFlatTire } from "react-icons/gi";
 import { MdOutlineElectricCar } from "react-icons/md";
 
 const Layanan = () => {
+  const itemsLayanan = [
+    {
+      icon: <FaOilCan />,
+      produk: "Ganti Oli",
+      desk: "Jasa ganti oli kami memberikan layanan cepat dan efisien untuk memastikan mesin kendaraan Anda tetap beroperasi dengan baik.",
+    },
+    {
+      icon: <GiBreakingChain />,
+      produk: "Perbaikan Rantai",
+      desk: "Kami menyediakan jasa perbaikan rantai yang profesional dan akurat, memperbaiki segala kerusakan dan masalah pada rantai.",
+    },
+    {
+      icon: <GiFlatTire />,
+      produk: "Perawatan Ban dan Roda",
+      desk: "Kami memberikan layanan perawatan ban, termasuk pengecekan tekanan udara, penyetelan keseimbangan, serta pemeriksaan dan perbaikan pada kondisi ban.",
+    },
+    {
+      icon: <MdOutlineElectricCar />,
+      produk: "Kelistrikan",
+      desk: "Menyediakan pengecekan dan perbaikan pada sistem kelistrikan, termasuk baterai, sistem pengapian, dan perangkat elektronik lainnya.",
+    },
+    {
+      icon: <FaCogs />,
+      produk: "Maintenance",
+      desk: "Kami menyediakan layanan pengecekan rutin serta perawatan berkala untuk memastikan kendaraan Anda berfungsi optimal.",
+    },
+    {
+      icon: <FaStore />,
+      produk: "Spare Parts",
+      desk: "Kami menyediakan aksesori kendaraan serta suku cadang orisinal, memberikan opsi tambahan dan pembaruan bagi kendaraan Anda.",
+    },
+  ];
+
   return (
     <section className="py-12">
       <div className="max-w-screen-xl mx-auto px-4 text-center text-gray-600 md:px-8">
@@ -13,85 +46,17 @@ const Layanan = () => {
         </div>
 
         <div className="grid gap-y-2 gap-x-12 sm:grid-cols-2 lg:grid-cols-3">
-          {/* Start Services */}
-          <div className="mt-12">
-            <div>
-              <div className="space-y-2">
+          {itemsLayanan.map((item, index) => (
+            <div key={index}>
+              <div className="space-y-2 mt-12">
                 <div className="w-12 h-12 mx-auto bg-gray-200 text-gray-800 rounded-full flex items-center justify-center">
-                  <FaOilCan className="text-3xl" />
+                  <div className="text-3xl">{item.icon}</div>
                 </div>
-                <h4 className="text-lg text-gray-800 font-semibold">Ganti Oli</h4>
-                <p>Jasa ganti oli kami memberikan layanan cepat dan efisien untuk memastikan mesin kendaraan Anda tetap beroperasi dengan baik.</p>
+                <h4 className="text-lg text-gray-800 font-semibold">{item.produk}</h4>
+                <p>{item.desk}</p>
               </div>
             </div>
-          </div>
-          {/* End Services */}
-
-          {/* Start Services */}
-          <div className="mt-12">
-            <div>
-              <div className="space-y-2">
-                <div className="w-12 h-12 mx-auto bg-gray-200 text-gray-800 rounded-full flex items-center justify-center">
-                  <GiBreakingChain className="text-3xl" />
-                </div>
-                <h4 className="text-lg text-gray-800 font-semibold">perbaikan Rantai</h4>
-                <p>Kami menyediakan jasa perbaikan rantai yang profesional dan akurat, memperbaiki segala kerusakan dan masalah pada rantai.</p>
-              </div>
-            </div>
-          </div>
-          {/* End Services */}
-          {/* Start Services */}
-          <div className="mt-12">
-            <div>
-              <div className="space-y-2">
-                <div className="w-12 h-12 mx-auto bg-gray-200 text-gray-800 rounded-full flex items-center justify-center">
-                  <GiFlatTire className="text-3xl" />
-                </div>
-                <h4 className="text-lg text-gray-800 font-semibold">perawatan Ban dan Roda</h4>
-                <p>Kami memberikan layanan perawatan ban, termasuk pengecekan tekanan udara, penyetelan keseimbangan, serta pemeriksaan dan perbaikan pada kondisi ban.</p>
-              </div>
-            </div>
-          </div>
-          {/* End Services */}
-          {/* Start Services */}
-          <div className="mt-12">
-            <div>
-              <div className="space-y-2">
-                <div className="w-12 h-12 mx-auto bg-gray-200 text-gray-800 rounded-full flex items-center justify-center">
-                  <MdOutlineElectricCar className="text-3xl" />
-                </div>
-                <h4 className="text-lg text-gray-800 font-semibold">Kelistrikan</h4>
-                <p>Menyediakan pengecekan dan perbaikan pada sistem kelistrikan, termasuk baterai, sistem pengapian, dan perangkat elektronik lainnya.</p>
-              </div>
-            </div>
-          </div>
-          {/* End Services */}
-          {/* Start Services */}
-          <div className="mt-12">
-            <div>
-              <div className="space-y-2">
-                <div className="w-12 h-12 mx-auto bg-gray-200 text-gray-800 rounded-full flex items-center justify-center">
-                  <FaCogs className="text-3xl" />
-                </div>
-                <h4 className="text-lg text-gray-800 font-semibold">Maintenance</h4>
-                <p>Kami menyediakan layanan pengecekan rutin serta perawatan berkala untuk memastikan kendaraan Anda berfungsi optimal.</p>
-              </div>
-            </div>
-          </div>
-          {/* End Services */}
-          {/* Start Services */}
-          <div className="mt-12">
-            <div>
-              <div className="space-y-2">
-                <div className="w-12 h-12 mx-auto bg-gray-200 text-gray-800 rounded-full flex items-center justify-center">
-                  <FaStore className="text-3xl" />
-                </div>
-                <h4 className="text-lg text-gray-800 font-semibold">Spare Parts</h4>
-                <p>Kami menyediakan aksesori kendaraan serta suku cadang orisinal, memberikan opsi tambahan dan pembaruan bagi kendaraan Anda.</p>
-              </div>
-            </div>
-          </div>
-          {/* End Services */}
+          ))}
         </div>
       </div>
     </section>

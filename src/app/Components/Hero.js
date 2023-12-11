@@ -20,7 +20,7 @@ const Hero = () => {
     // </section>
 
     <section className="h-screen bg-cover bg-back-ground bg-center bg-gray-400 bg-blend-multiply">
-      <div className="px-4 py-36 md:py-48 lg:py-56 mx-auto text-center max-w-screen-xl ">
+      <div className="px-4 py-28 md:py-36 lg:py-40 mx-auto text-center max-w-screen-xl ">
         <h1 className="mb-4 text-5xl md:text-6lg xl:text-7xl font-extrabold tracking-wide leading-none text-gray-100">
           Teknisi Ahli, <br /> <span>Kendaraan Anda Seperti baru Kembali!</span>
         </h1>

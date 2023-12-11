@@ -55,8 +55,8 @@ const Services = () => {
     },
   ];
   return (
-    <section className="py-14 mx-4">
-      <div className="max-w-screen-xl mx-auto sm:text-center">
+    <section className="py-8 mx-4">
+      <div className="max-w-screen-xl mx-auto sm:text-center bg-gray-100 p-6 rounded-lg">
         <div className="relative  mx-8">
           <div className="relative z-10">
             <h3 className="text-gray-900 text-3xl font-semibold sm:text-4xl">Ayo, Perbaiki Sekarang, Hindari Masalah di Jalan!</h3>
