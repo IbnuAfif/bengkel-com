@@ -3,7 +3,7 @@ import Image from "next/image";
 const Partners = () => {
   const ourPartners = [
     { image: <Image src="/Shell.jpg" width={150} height={100} alt="..." loading="lazy" /> },
-    { image: <Image src="/MotoGp.png" width={100} height={100} alt="..." loading="lazy" /> },
+    { image: <Image src="/MotoGp.png" width={120} height={100} alt="..." loading="lazy" /> },
     { image: <Image src="/Pertamina.png" width={120} height={100} alt="..." loading="lazy" /> },
     { image: <Image src="/Vale.jpg" width={150} height={100} alt="..." loading="lazy" /> },
   ];
