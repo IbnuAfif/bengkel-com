@@ -16,7 +16,7 @@ const Testimoni = () => {
                 <Image src="/user.jpg" width={100} height={100} alt="user photo" loading="lazy" />
               </div>
               <div>
-                <div className="text-center text-sm font-bold text-indigo-500 sm:text-left md:text-base">Suratno Djaja</div>
+                <div className="text-center text-sm font-bold text-gray-900 sm:text-left md:text-base">Suratno Djaja</div>
                 <p className="text-center text-sm text-gray-500 sm:text-left md:text-sm">Pelanggan</p>
               </div>
             </div>
@@ -33,7 +33,7 @@ const Testimoni = () => {
                 <Image src="/user2.jpg" width={100} height={100} alt="user photo" loading="lazy" />
               </div>
               <div>
-                <div className="text-center text-sm font-bold text-indigo-500 sm:text-left md:text-base">Budi Hartanto</div>
+                <div className="text-center text-sm font-bold text-gray-900 sm:text-left md:text-base">Budi Hartanto</div>
                 <p className="text-center text-sm text-gray-500 sm:text-left md:text-sm">Pelanggan</p>
               </div>
             </div>
@@ -51,7 +51,7 @@ const Testimoni = () => {
                 <Image src="/user3.jpg" width={100} height={100} alt="user photo" loading="lazy" />
               </div>
               <div>
-                <div className="text-center text-sm font-bold text-indigo-500 sm:text-left md:text-base">Bagus Widjaja</div>
+                <div className="text-center text-sm font-bold text-gray-900 sm:text-left md:text-base">Bagus Widjaja</div>
                 <p className="text-center text-sm text-gray-500 sm:text-left md:text-sm">Pelanggan</p>
               </div>
             </div>
